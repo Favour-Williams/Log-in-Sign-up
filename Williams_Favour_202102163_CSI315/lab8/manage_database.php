@@ -1,10 +1,10 @@
 <?php
 
 // Database connection
-$dbhost = "10.0.19.74";
-$dbuser = "wil02163";
-$dbpass = "wil02163";
-$dbname = "db_wil02163";
+$dbhost = "*****";
+$dbuser = "*****";
+$dbpass = "*****";
+$dbname = "*****";
 
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
