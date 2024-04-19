@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .div1 {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.2), 0 0 30px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            animation: glow 2s infinite;
+        }
+        .div2 {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.2), 0 0 30px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            animation: glow2 2s infinite;
+        }
+        .div3 {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.2), 0 0 30px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            animation: glow1 2s infinite;
+        }
+        h2 {
+            margin: 0;
+            color: #333;
+        }
+
+        p {
+            margin: 10px 0 0;
+            color: #666;
+        }
+
+        @keyframes glow {
+            0% {
+                box-shadow: 20px 20px 10px rgb(23, 65, 255), 20px 20px 10px rgb(23, 65, 255), 20px 20px 10px rgb(23, 65, 255), 20px 20px 10px rgb(23, 65, 255);
+            }
+            100% {
+                box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2), 0 0 30px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4), 0 0 50px rgba(0, 0, 0, 0.5);
+            }
+        }
+        @keyframes glow2 {
+            0% {
+                box-shadow: 20px 20px 10px rgba(255, 0, 0, 0.82), 20px 20px 10px rgba(255, 0, 0, 0.82), 20px 20px 10px rgba(255, 0, 0, 0.82), 20px 20px 10px rgba(255, 0, 0, 0.82);
+            }
+            100% {
+                box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2), 0 0 30px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4), 0 0 50px rgba(0, 0, 0, 0.5);
+            }
+        }   
+        @keyframes glow1 {
+            0% {
+                box-shadow: 20px 20px 10px rgb(21, 255, 0), 20px 20px 10px rgb(21, 255, 0), 20px 20px 10px rgb(21, 255, 0), 20px 20px 10px rgb(21, 255, 0);
+            }
+            100% {
+                box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2), 0 0 30px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4), 0 0 50px rgba(0, 0, 0, 0.5);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="div1">
+            <h2>congratulations</h2>
+            <p>You have successfully registered, now you can log in</p>
+            <a href="login.html">TO LOG IN CLICK ME 🖱️👈↩</a>
+        </div>
+    </div>
+</body>
+</html>
